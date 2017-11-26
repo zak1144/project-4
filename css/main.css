@@ -1,8 +1,10 @@
 /*--------lightbox custom styles----------------------*/
 .sl-wrapper .sl-image .sl-caption{
 text-align: center;
-bottom: -100px;    
+bottom: auto;
+top: 100%;    
 }
+
 .sl-overlay{
         background: black;
 }
@@ -55,8 +57,5 @@ input:focus {
                 flex-wrap: wrap;
                 justify-content: space-around;
         }
-        .sl-wrapper .sl-image .sl-caption{
-                top: 100%;
-                bottom: auto;    
-        }
+       
 }
