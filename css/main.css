@@ -3,6 +3,7 @@
 text-align: center;
 bottom: auto;   
 }
+
 .sl-overlay{
         background: black;
 }
@@ -21,9 +22,11 @@ form{
 }
 form input {
     width: 35%;
+    max-width: 500px;
     height: 40px;
     background-color: #F2F1F1;
     border-radius: 5px;
+
 }
 input:hover {
         background-color:rgb(211, 238, 229);
@@ -34,8 +37,7 @@ input:focus {
 }
 
 .gallery ul{
-        width:100%;
-        margin: 0 auto;
+
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
@@ -43,14 +45,25 @@ input:focus {
 .gallery li {
         display: flex;
         flex-direction: column;
-        margin-top: 38px;
+        margin-top: 30px;
+        
+}
+.wrapper{
+        
+        margin: 0 auto;
 }
 /*---------------media query----------------------*/
 
-@media(min-width: 400px) and (max-width:1440px){
-        .gallery ul {
+@media(min-width: 400px) {
+        .gallery{
                 width:90%;
+                max-width:900px;
+                margin:0 auto;
+        }
+        .gallery ul{
+
                 flex-wrap: wrap;
                 justify-content: space-around;
         }
+       
 }
