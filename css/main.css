@@ -3,7 +3,6 @@
 text-align: center;
 bottom: auto;   
 }
-
 .sl-overlay{
         background: black;
 }
@@ -25,7 +24,6 @@ form input {
     height: 40px;
     background-color: #F2F1F1;
     border-radius: 5px;
-
 }
 input:hover {
         background-color:rgb(211, 238, 229);
@@ -46,15 +44,13 @@ input:focus {
         display: flex;
         flex-direction: column;
         margin-top: 38px;
-        
 }
 /*---------------media query----------------------*/
 
 @media(min-width: 400px) and (max-width:1440px){
-        .gallery ul{
+        .gallery ul {
                 width:90%;
                 flex-wrap: wrap;
                 justify-content: space-around;
         }
-       
 }
