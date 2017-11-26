@@ -1,0 +1,61 @@
+/*--------lightbox custom styles----------------------*/
+.sl-wrapper .sl-image .sl-caption{
+text-align: center;
+bottom: -100px;    
+}
+.sl-overlay{
+        background: black;
+}
+.sl-wrapper .sl-close,
+.sl-wrapper .sl-navigation button{
+            color: #fff;
+}
+
+/*--------main styles----------------------*/
+body {
+    font-family: 'Josefin Slab', serif;
+}
+form{
+    margin-top: 34px;
+    text-align: center;
+}
+form input {
+    width: 35%;
+    height: 40px;
+    background-color: #F2F1F1;
+    border-radius: 5px;
+
+}
+input:hover {
+        background-color:rgb(211, 238, 229);
+}
+input:focus {
+        background-color: rgba(80, 130, 141, 0.37);
+        transition: all 0.5s linear;
+}
+
+.gallery ul{
+        width:100%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+}
+.gallery li {
+        display: flex;
+        flex-direction: column;
+        margin-top: 38px;
+        
+}
+/*---------------media query----------------------*/
+
+@media(min-width: 400px) and (max-width:1440px){
+        .gallery ul{
+                width:90%;
+                flex-wrap: wrap;
+                justify-content: space-around;
+        }
+        .sl-wrapper .sl-image .sl-caption{
+                bottom: -60px;    
+                }
+}
