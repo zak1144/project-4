@@ -1,8 +1,7 @@
 /*--------lightbox custom styles----------------------*/
 .sl-wrapper .sl-image .sl-caption{
 text-align: center;
-bottom: auto;
-top: 100%;    
+bottom: auto;   
 }
 
 .sl-overlay{
